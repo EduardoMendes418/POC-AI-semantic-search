@@ -1,6 +1,8 @@
-import { OpenAIEmbeddings } from 'langchain/embeddings/openai'
+/* eslint-disable prefer-const */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { OpenAIEmbeddings } from '@langchain/openai'
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter'
-import { OpenAI } from 'langchain/llms/openai'
+import { OpenAI } from '@langchain/openai'
 import { loadQAStuffChain } from 'langchain/chains'
 import { Document } from 'langchain/document'
 import { timeout } from './config'
