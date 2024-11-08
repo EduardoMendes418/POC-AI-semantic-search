@@ -1,13 +1,7 @@
 
 ## Started
-
+npm  install
 npm  dev
-
-yarn dev
-
-pnpm dev
-
-bun dev
 
 ## Example .env
 
